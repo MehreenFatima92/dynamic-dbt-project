@@ -1,0 +1,6 @@
+dynamic_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
