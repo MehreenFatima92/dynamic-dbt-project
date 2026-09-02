@@ -1,0 +1,11 @@
+
+    
+    
+    truncate table "dev"."main"."raw_orders";
+    -- dbt seed --
+    
+          COPY "dev"."main"."raw_orders" FROM 'C:\Users\WALEED TRADERS\project_dbt\dynamic_dbt_project\seeds\raw_orders.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  
