@@ -8,8 +8,8 @@ WITH date_range AS (
     
     
     SELECT 
-        '2024-02-01'::DATE AS start_period,
-        '2024-04-01'::DATE AS end_period
+        '2024-01-01'::DATE AS start_period,
+        '2024-03-01'::DATE AS end_period
 
 )
 SELECT
